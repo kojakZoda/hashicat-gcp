@@ -1,6 +1,6 @@
 module "network" {
   source  = "terraform-google-modules/network/google"
-  version = "3.2.0"
+  version = "2.5.0"
   # insert the 3 required variables here
   network_name = "lavrèmen-vpc"
   project_id = var.project
